@@ -19,5 +19,60 @@ class ElectionSeeder extends Seeder
         Election::create([
             'email' => '201358@astanait.edu.kz'
         ]);
+        Election::create([
+            'email' => '201493@astanait.edu.kz'
+        ]);
+        Election::create([
+            'email' => '201156@astanait.edu.kz'
+        ]);
+        Election::create([
+            'email' => '201526@astanait.edu.kz'
+        ]);
+        Election::create([
+            'email' => '201640@astanait.edu.kz'
+        ]);
+        Election::create([
+            'email' => '201800@astanait.edu.kz'
+        ]);
+        Election::create([
+            'email' => '201143@astanait.edu.kz'
+        ]);
+        Election::create([
+            'email' => '201623@astanait.edu.kz'
+        ]);
+        Election::create([
+            'email' => '201784@astanait.edu.kz'
+        ]);
+        Election::create([
+            'email' => '201456@astanait.edu.kz'
+        ]);
+        Election::create([
+            'email' => '201333@astanait.edu.kz'
+        ]);
+        Election::create([
+            'email' => '201380@astanait.edu.kz'
+        ]);
+        Election::create([
+            'email' => '201152@astanait.edu.kz'
+        ]);
+        Election::create([
+            'email' => '201292@astanait.edu.kz'
+        ]);
+        Election::create([
+            'email' => '201040@astanait.edu.kz'
+        ]);
+        Election::create([
+            'email' => '201384@astanait.edu.kz'
+        ]);
+        Election::create([
+            'email' => '201691@astanait.edu.kz'
+        ]);
+        Election::create([
+            'email' => '201633@astanait.edu.kz'
+        ]);
+        Election::create([
+            'email' => '201166@astanait.edu.kz'
+        ]);
+        
     }
 }

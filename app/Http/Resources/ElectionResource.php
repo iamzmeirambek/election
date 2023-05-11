@@ -17,6 +17,9 @@ class ElectionResource extends JsonResource
         return [
             'id' =>$this->id,
             'email' => $this->email,
+            'account' => $this->account,
+            'token' =>$this->token,
+            'approved' => $this->approved
         ];
     }
 }

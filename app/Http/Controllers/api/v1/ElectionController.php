@@ -30,7 +30,7 @@ class ElectionController extends Controller
                 'token' => $token,
             ]);
         $election->update($request->validated());
-        SendLinkJob::dispatch($data);
+        Mail::to($data['email'])->send(new LinkMail($data['token']));
         return response()->json([
             'message' => 'We have e-mailed your link!'
         ]);
