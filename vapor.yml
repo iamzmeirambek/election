@@ -9,7 +9,13 @@ environments:
             - 'COMPOSER_MIRROR_PATH_REPOS=1 composer install --no-dev'
             - 'php artisan event:cache'
           # - 'npm ci && npm run build && rm -rf node_modules'
-        MAIL_FROM_ADDRESS: 'iamzmeirambek@gmail.com'
+        mail:
+            driver: smtp
+            host: smtp.mailtrap.io
+            port: 2525
+            username: ad56a1d23a7cbe
+            password: 2e627710bda50e
+            encryption: tls
         database: election-laravel
         deploy:
         - 'php artisan migrate:fresh --force --seed'
