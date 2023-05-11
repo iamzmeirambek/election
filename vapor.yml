@@ -9,7 +9,7 @@ environments:
             - 'COMPOSER_MIRROR_PATH_REPOS=1 composer install --no-dev'
             - 'php artisan event:cache'
           # - 'npm ci && npm run build && rm -rf node_modules'
-        MAIL_FROM_ADDRESS: "iamzmeirambek@gmail.com"
+        MAIL_FROM_ADDRESS: iamzmeirambek@gmail.com
         database: election-laravel
         deploy:
         - 'php artisan migrate:fresh --force --seed'
