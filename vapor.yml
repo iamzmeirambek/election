@@ -9,6 +9,7 @@ environments:
             - 'COMPOSER_MIRROR_PATH_REPOS=1 composer install --no-dev'
             - 'php artisan event:cache'
           # - 'npm ci && npm run build && rm -rf node_modules'
+        database: election-laravel
         deploy:
         - 'php artisan migrate:fresh --force --seed'
     staging:
